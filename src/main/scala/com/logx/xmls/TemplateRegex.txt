@@ -1,0 +1,4 @@
+<regex id=1 type="section" datatype="date">
+#2013/03/04 11:16:12  [info] 3526#0: *17360551 client
+/(^\d{4}\/03\/04\s+\d+\:\d+\:\d+)\s+\[(^\]+)\]\s+(.+)/
+</regex>

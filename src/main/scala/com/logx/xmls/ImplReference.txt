@@ -1,0 +1,5 @@
+Notes
+======
+(1) Sections can contain subsections.
+(2) Merge sections can occur.
+(3) Multi-table data can be used.

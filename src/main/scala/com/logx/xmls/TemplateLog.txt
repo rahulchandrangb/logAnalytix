@@ -1,0 +1,5 @@
+2013/03/04 11:16:12 [info] 3526#0: *17360551 client prematurely closed connection while reading client request line, client: 10.15.16.12, server: sync.stage.ringcentral.com
+2013/03/04 11:16:14 [info] 3526#0: *17360552 client prematurely closed connection while reading client request line, client: 10.15.16.12, server: sync.stage.ringcentral.com
+2013/03/04 11:16:14 [info] 3526#0: *17360553 client prematurely closed connection while reading client request line, client: 10.15.16.11, server: sync.stage.ringcentral.com
+2013/03/04 11:16:16 [info] 3526#0: *17360554 client prematurely closed connection while reading client request line, client: 10.15.16.11, server: sync.stage.ringcentral.com
+2013/03/04 11:16:17 [info] 3526#0: *17360555 client prematurely closed connection while reading client request line, client: 10.15.16.12, server: sync.stage.ringcentral.com
