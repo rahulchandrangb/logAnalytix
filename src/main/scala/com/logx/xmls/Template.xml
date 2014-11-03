@@ -2,7 +2,7 @@
 <file>
 	<section name="testNamespace" tagtype="regex">
 		<startTag>
-			<tag> 1 </tag>
+			<tagid> 1	</tagid>
 			<dataMap tableName="testTable"></dataMap>
 		</startTag>
 	</section>
@@ -14,10 +14,10 @@
 		<part id="evtText" name="Event Text" type="String" extractBy="regex"
 			index="3" persist="1" />
 		<partOps type="calculate" order="1">
-			<part id="dateError" name="Date Error" type="String" extractBy="Ops" persist="0">
+			<part id="dateError" name="Date Error" type="String" extractBy="Ops"
+				persist="0">
 				date+error
 			</part>
 		</partOps>
 	</table>
-
 </file>
