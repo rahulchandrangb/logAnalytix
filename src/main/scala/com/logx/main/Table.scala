@@ -1,5 +1,10 @@
 package com.logx.main
 
-class Table {
+import scala.collection.mutable.Map
+import scala.collection.mutable.ListBuffer
 
+class Table(val tblName:String) {
+	val sectionNameList= ListBuffer[String]()
+	//val opertionList = ListBuffer[]
+	
 }

@@ -4,9 +4,10 @@ import scala.collection.mutable.HashMap
 import scala.collection.mutable.ListBuffer
 
 class Section(val id:String,val name:String) {
-	val settings:Map[String,String] = Map()
-	val tagIds:ListBuffer[Int] = ListBuffer()
+	private val settings:Map[String,String] = Map()
+	private val tagIds:ListBuffer[Int] = ListBuffer()
 	def addSettings(key:String,value:String)= settings += key -> value
 	def getSettings(key:String) = settings.getOrElse(key, "")
-	
+	def addTagIds(value:Int) = tagIds += value
+	def getTagIds = tagIds.toList
 }
