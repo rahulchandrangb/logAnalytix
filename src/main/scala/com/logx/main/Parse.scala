@@ -22,7 +22,7 @@ case class Parse(xmlFile: String, daoSettings: DAOConf) {
             val tagTypeIdx =  (v \ "tagtypeidx").text
             val datamapTblNm = (v \ "dataMap" \ "@tableName").text
             println(s"Tag ID: $tagid \nTbl Nm: $datamapTblNm \ntagTypeIdx : $tagTypeIdx")
-            (tagid,tagTypeIdx,datamapTblNm) 
+            (tagid,tagTypeIdx,datamapTblNm)
         }   
         
     }
