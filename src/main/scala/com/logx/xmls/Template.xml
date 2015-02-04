@@ -3,9 +3,11 @@
 	<section name="testNamespace" tagtype="regex">
 		<startTag>
 			<tagid> 1	</tagid>
-			<dataMap tableName="testTable"></dataMap>
+			<tagtypeidx> 1  </tagtypeidx>                     <!-- specifies the index of tagtype if tagtype is regex -->
+			<dataMap tableName="testTable"></dataMap>         <!-- Shows the tables coming under this section -->
 		</startTag>
 	</section>
+	
 	<table name="testTable">
 		<part id="date" name="Date" type="Date" extractBy="regex" index="1"
 			persist="1" />
